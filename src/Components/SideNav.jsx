@@ -1,10 +1,15 @@
 import React from 'react'
 import { AiOutlineFileSearch } from "react-icons/ai";
 
-export default function SideNav() {
+const SideNav = () => {
   return (
-    <nav className='SideNav'>
-        <AiOutlineFileSearch/>
-    </nav>
+    <>
+      <nav className='SideNav'>
+        <AiOutlineFileSearch />
+      </nav>
+
+    </>
   )
 }
+
+export default SideNav
