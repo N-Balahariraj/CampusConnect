@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 export default function HeaderNav() {
   return (
+
     <div className='HeadNav-Container'>
       <div className='logo'><span className="HeadNavIcons"><span className='text-4xl italic font-semibold'>PC</span></span></div>
       <span className="HeadNavIcons"><Link to="/Home"><IoHome className='text-2xl' /></Link></span>

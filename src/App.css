@@ -19,6 +19,7 @@
     border-radius: 10px;  
 }
 
+
 .HeadNavIcons{
     height:75%;
     width: 10%;
@@ -37,6 +38,11 @@
 .Page-Container{
     display: flex;
     position: relative;  
+
+.HeadNav>span{
+    height: 100%;
+    width: 5%;
+
 }
 
 .SideNav{
@@ -45,11 +51,13 @@
     margin-top: 2vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: var(--bg-color);
     color: var(--text-color);
     border-radius: 10px;
     padding: 0.5%;
 }
+
 
 .Content-Container{
     width: 100%;
@@ -64,4 +72,22 @@
 
 .Display-Container{
     margin-left: 22vh;
+
+.SideNav>span{
+    height: 7%;
+    width: 100%;
+}
+
+.NavIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.NavIcons:hover{
+    background-color: white;
+    color: black;
+
 }
