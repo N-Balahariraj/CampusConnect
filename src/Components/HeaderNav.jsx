@@ -7,12 +7,12 @@ import { BsInfoCircleFill } from "react-icons/bs";
 export default function HeaderNav() {
   return (
     <nav className='HeadNav'>
-        <span className="HeadNavIcons"><span className='text-4xl italic font-semibold'>PC</span></span>
-        <span className="HeadNavIcons"><IoHome className='text-2xl'/></span>
-        <span className="HeadNavIcons"><RiTeamFill className='text-2xl'/></span>
-        <span className="HeadNavIcons"><BsInfoCircleFill className='text-2xl'/></span>
-        <span className="HeadNavIcons"><IoIosMail className='text-3xl'/></span>
-        <span className="HeadNavIcons"><IoPersonCircle className='text-5xl'/></span>    
+        <span className="NavIcons"><span className='text-4xl italic font-semibold'>PC</span></span>
+        <span className="NavIcons"><IoHome className='text-2xl'/></span>
+        <span className="NavIcons"><RiTeamFill className='text-2xl'/></span>
+        <span className="NavIcons"><BsInfoCircleFill className='text-2xl'/></span>
+        <span className="NavIcons"><IoIosMail className='text-3xl'/></span>
+        <span className="NavIcons"><IoPersonCircle className='text-5xl'/></span>    
     </nav>
   )
 }

@@ -13,19 +13,9 @@
     border-radius: 10px;
 }
 
-.HeadNavIcons{
+.HeadNav>span{
     height: 100%;
     width: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-.HeadNavIcons:hover{
-    background-color: white;
-    color: black;
 }
 
 .SideNav{
@@ -33,9 +23,28 @@
     height: 85vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: black;
     color: white;
     margin-top: 1%;
     border-radius: 10px;
     padding: 0.5%;
+}
+
+.SideNav>span{
+    height: 7%;
+    width: 100%;
+}
+
+.NavIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.NavIcons:hover{
+    background-color: white;
+    color: black;
 }
