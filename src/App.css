@@ -38,7 +38,7 @@
 .Page-Container{
     display: flex;
     position: relative;  
-
+}
 .HeadNav>span{
     height: 100%;
     width: 5%;
@@ -72,7 +72,7 @@
 
 .Display-Container{
     margin-left: 22vh;
-
+}
 .SideNav>span{
     height: 7%;
     width: 100%;
