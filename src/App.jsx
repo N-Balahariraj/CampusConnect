@@ -8,16 +8,14 @@ function App() {
 
   return (
     <>
-      <div className='App'>
+      <div className='App-Container'>
         <HeaderNav />
-        <div className='Display'>
+        <div className='Page-Container'>
           <SideNav />
-          <div className='Content'>
+          <div className='Content-Container'>
             <Outlet />
           </div>
-
         </div>
-
       </div>
     </>
 
