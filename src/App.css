@@ -50,4 +50,5 @@
 
 .Outlets{
     width: 92%;
+    overflow-y: scroll;
 }
