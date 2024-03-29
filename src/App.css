@@ -13,7 +13,7 @@
     border-radius: 10px;
 }
 
-.HeadNav>span{
+.HeadNav>a{
     height: 100%;
     width: 5%;
 }
@@ -26,12 +26,11 @@
     justify-content: space-around;
     background-color: black;
     color: white;
-    margin-top: 1%;
     border-radius: 10px;
     padding: 0.5%;
 }
 
-.SideNav>span{
+.SideNav>a{
     height: 7%;
     width: 100%;
 }
@@ -47,4 +46,8 @@
 .NavIcons:hover{
     background-color: white;
     color: black;
+}
+
+.Outlets{
+    width: 92%;
 }
